@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class LoginActivity extends AppCompatActivity {
     private static Button btn;
     private static EditText uname;
-    private static EditText pass;
+    private static EditText password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public void LoginActivity() {
         uname = (EditText) findViewById(R.id.uname);
-        pass = (EditText) findViewById(R.id.upass);
+        password = (EditText) findViewById(R.id.upass);
 
         btn = (Button) findViewById(R.id.submit);
         btn.setOnClickListener(
